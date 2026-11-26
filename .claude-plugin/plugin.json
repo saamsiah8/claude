@@ -1,8 +1,8 @@
 {
-  "name": "claude",
-  "description": "Skill Claude untuk membantu pengembangan dan peninjauan proyek.",
-  "version": "1.0.0",
+  "name": "motion-renderer",
+  "description": "Buat dan render motion graphics serta animasi langsung sebagai Claude Artifact. Fokus pada hasil visual, bukan code review.",
+  "version": "1.1.0",
   "skills": [
-    "./"
+    "./skills/motion-renderer"
   ]
 }

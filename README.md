@@ -1,23 +1,17 @@
-# claude
+# Motion Renderer
 
-Plugin dan skill Claude untuk membantu pengembangan perangkat lunak.
-
-## Struktur
-
-- `SKILL.md` — instruksi skill Claude.
-- `.claude-plugin/plugin.json` — metadata plugin.
+Plugin ini berfokus membuat motion graphics dan animasi yang langsung dipreview sebagai Claude Artifact, bukan melakukan code review.
 
 ## Instalasi
 
-1. Unduh repository sebagai ZIP.
-2. Unggah ZIP ke halaman plugin Claude.
-3. Aktifkan plugin setelah validasi berhasil.
+Unduh repository sebagai ZIP dari halaman GitHub, lalu unggah ZIP tersebut melalui menu Plugins di Claude.
 
-## Penggunaan
+## Cara pakai
 
-Aktifkan skill ketika perlu bantuan untuk:
+Aktifkan plugin lalu minta sesuatu seperti:
 
-- memahami dan meninjau kode;
-- mengubah atau menyempurnakan repository;
-- menyusun dokumentasi;
-- merencanakan dan memeriksa implementasi.
+- “Buat intro 5 detik untuk channel gaming, neon ungu dan biru.”
+- “Buat poster bergerak bertema hujan malam yang bisa diputar dan diulang.”
+- “Buat animasi logo sederhana dengan latar transparan.”
+
+Skill akan berusaha menampilkan hasilnya langsung sebagai Artifact. Ketersediaan Artifact dan ekspor file bergantung pada fitur yang tersedia di akun/sesi Claude. Jika Artifact tidak tersedia, skill memberi HTML mandiri sebagai fallback.
