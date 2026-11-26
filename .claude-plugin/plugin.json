@@ -1,0 +1,8 @@
+{
+  "name": "claude",
+  "description": "Skill Claude untuk membantu pengembangan dan peninjauan proyek.",
+  "version": "1.0.0",
+  "skills": [
+    "./"
+  ]
+}
